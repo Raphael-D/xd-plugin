@@ -1,4 +1,4 @@
-Marker Shpe
+Marker Shape
 ====
 
 Overview
