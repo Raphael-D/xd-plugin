@@ -1,0 +1,18 @@
+{
+  "id": "CREATE_TEXT_SHAPE",
+  "name": "マーカー",
+  "description": "選択中の要素の上にマーカーシェイプを置きます。",
+  "version": "0.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "marker shape",
+        "commandId": "markerShape",
+        "shortcut": { "mac": "Cmd+Option+o", "win": "Ctrl+Alt+o" }
+      }
+   ]
+}
