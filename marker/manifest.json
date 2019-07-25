@@ -1,0 +1,29 @@
+{
+  "id": "6d667c60",
+  "name": "Red marker plugin",
+  "version": "1.0.0",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0"
+  },
+  "description": "Create shape on above your select elements. For marking. This function is also available multiple elements and how many kind of elements.",
+    "summary": "Create shape marker.",
+    "languages": ["en"],
+    "author": "Kohei shimizu",
+    "helpUrl": "https://github.com/Raphael-D/xd-plugin/tree/master/marker-shape",
+    "icons": [
+        { "width": 24, "height": 24, "path": "images/icon@1x.png" },
+        { "width": 48, "height": 48, "path": "images/icon@2x.png" },
+        { "width": 96, "height": 96, "path": "images/icon@3x.png" },
+        { "width": 144, "height": 144, "path":"images/icon@4x.png" },
+        { "width": 192, "height": 192, "path": "images/icon@5x.png" }
+    ],
+  "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "marker shape",
+        "commandId": "markerShape",
+        "shortcut": { "mac": "Cmd+Option+o", "win": "Ctrl+Alt+o" }
+      }
+   ]
+}
