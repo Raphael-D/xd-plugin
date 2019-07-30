@@ -1,7 +1,7 @@
 Clip Text
 ====
 
-Overview
+## Overview
 Copy on clipboard planetext of selected texts.
 
 ## Description
