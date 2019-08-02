@@ -1,7 +1,7 @@
 {
   "id": "58d9d249",
   "name": "Clip Text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "host": {
     "app": "XD",
     "minVersion": "13.0"
@@ -22,7 +22,7 @@
       {
         "type": "menu",
         "label": "Clip Text",
-        "commandId": "clipText",
+        "commandId": "ClipText",
         "shortcut": { "mac": "Cmd+Option+c", "win": "Ctrl+Alt+c" }
       }
    ]

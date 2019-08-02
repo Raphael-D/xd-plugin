@@ -137,6 +137,7 @@ async function createDialog({
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        color: #f00;
     }
     .h1 img {
         width: ${iconSize}px;
@@ -181,8 +182,8 @@ async function createDialog({
         ${icon ? `<img ${usingPluginIcon ? `class="plugin-icon" title="${manifest.name}"` : ''} src="${icon}" />` : ''}
     </h1>
     <hr />
-    <!-- <progress id='progressBar' value='0' max='100' style='width: 100%; color: #f00;'></progress> -->
-    <!-- <hr /> -->
+    <!-- <progress id="progressBar" value="0" max="100" style="width: 100%; color: #f00;"></progress>
+    <hr /> -->
     <div class="container">
         ${
             !render && (
